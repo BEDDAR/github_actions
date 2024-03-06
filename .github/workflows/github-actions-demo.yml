@@ -19,3 +19,4 @@ jobs:
       - run: node hello.js
       - run: npm i vitest
       - run: npm run test lib.test.js
+      - run: python3 -m pip install semgrep
